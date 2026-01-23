@@ -1,6 +1,9 @@
 body{
-    text-align: center;
     background-color: #ff6666;
     font-family: 'Times New Roman', Times, serif;
-    color : #b30059
+    color : #18000c
+}
+#Introduction {
+    text-align: center;
+    margin-top: 50px;
 }
