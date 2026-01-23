@@ -27,13 +27,39 @@ body {
     flex: 1 ;
     display : flex;
     justify-content :flex-start;
-    gap :25px;
+    gap :10px;
+}
+.headernav a{
+    text-decoration: none;
+    padding: 10px 18px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 9px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.headernav a:hover {
+    background-color: #444;
+    transform: translateY(-2px);
 }
 .authorisation{
     flex: 1;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
+}
+.authorisation a{
+    text-decoration: none;
+    padding: 10px 18px;
+    background-color: rgb(156, 153, 153);
+    color: #222;
+    border-radius: 9px;
+    font-weight: 300;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.authorisation a:hover {
+    background-color: rgb(200, 197, 197);
+    transform: translateX(2px);
 }
 .main {
     flex : 1;
