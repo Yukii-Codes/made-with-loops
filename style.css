@@ -1,16 +1,8 @@
-body{
-    background-color: #ff6666;
-    font-family: 'Times New Roman', Times, serif;
-    color : #18000c
-}
-#brand-name {
+.header{
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
     align-items: center;
-    margin-top: 50px;
-}
-img{
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-img:hover{
-    transform: scale(1.2);
+    justify-content: center;
+    
 }
