@@ -1,8 +1,56 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
 .header{
-    height: 80px;
+    height: 120px;
     border-bottom: 1px solid #ccc;
     display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+.header-bottom{
+    display: flex;
+    align-items: flex-end;
+    
+}
+.logo{
+    flex : 1;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.headernav{
+    flex: 1 ;
+    display : flex;
+    justify-content :flex-start;
+    gap :25px;
+}
+.authorisation{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.main {
+    flex : 1;
+    padding: 40px 40px;
+    
+}
+
+.brand-intro {
+    max-width: 900px;
+    margin-top: 40px;
+}
+.footer{
+    
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-top: 40px;
 }
