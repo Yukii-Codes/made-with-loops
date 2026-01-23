@@ -7,3 +7,10 @@ body{
     align-items: center;
     margin-top: 50px;
 }
+img{
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+img:hover{
+    transform: scale(1.2);
+}
