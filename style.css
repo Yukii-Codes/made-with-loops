@@ -23,6 +23,10 @@ body {
     align-items: center;    
     justify-content: center;
 }
+.logo img{
+    height: 80px;
+    border-radius: 50%;
+}
 .headernav{
     flex: 1 ;
     display : flex;
