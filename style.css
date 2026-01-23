@@ -3,7 +3,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color : #18000c
 }
-#Introduction {
-    text-align: center;
+#brand-name {
+    align-items: center;
     margin-top: 50px;
 }
