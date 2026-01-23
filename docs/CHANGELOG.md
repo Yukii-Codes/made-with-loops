@@ -1,4 +1,6 @@
 # Changelog
 
 ## [Unreleased]
-- Initial project setup
+- ## 2026-01-23
+- Set up a simple folder structure to keep frontend, backend, and documentation separated.
+
